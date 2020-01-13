@@ -1,0 +1,6 @@
+{
+    "require": {
+        "sociallydev/spaces-api": "dev-master",
+        "bitmannl/bcrypt": "*"
+    }
+}

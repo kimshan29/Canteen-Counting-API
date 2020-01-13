@@ -1,0 +1,156 @@
+- delete lelang active: jadikan clone data, field status inactive, delete = 1, id_iklan = generate created_date + id;
+
+- IDIKLAN => generate harusnya otomatis ketika di clear data
+
+- Pelajari IRIS Midtrans
+
+- Kirim email ulang untuk verifikasi
+
+- Metain database
+
+- Bid n run status ada dua pemenang bid pertama, kalau tidak pemenang kedua
+
+- esYcbJgtGfs:APA91bFrRusBwAvbMLWV-WYlUU7OCHaNCWC8v7zBbwf9rEcTFU7cSUa-9J6tN6boP7Dk0yZ_HWoj4TthW8WbSnNRdDCH4musQx0W5Dd8NPJeqrXL8ouu9zDQwqcSfW4ji529XJr10oAZ
+
+
+
+ID 4 HomeActivity OR Popup.PopupHomeActivity
+ID 8 DetailProductActivity OR Popup.PopupDetaiProductActivity
+ID 9 OrderSumaryActivity OR Popup.PopupOrderSumaryActivity
+ID 11 Cart OR Popup.PopupCart
+
+ID 12 Ngebid sangat mengutamakan kepuasan semua pengguna, karena itu Bid n run sangat tidak diperkenankan dilakukan di aplikasi Ngebid. Dengan ini kamu mendapatkan peringatan pertama, dan jika diulangi kembali akun dan no. hp ini akan otomatis terblokir oleh sistem Ngebid OR Kamu telah melakukan Bid n Run, segera cek aplikasi ngebid.
+
+
+
+
+DASHBOARD :
+total produk aktif/non aktif
+total member aktif/non aktif
+transaksi yang berhasil
+transaksi bidnrun
+transaksi buy it now
+rekening blm terverifikasi
+dokumen member belum terverifikasi
+
+
+withdraw : notif data rekening belum terferifikasi
+ada halaman rekening terverifikasi/belum terverifikasi
+
+muncul notifikasi untuk push notif dokumen sudah terverifikasi sama juga dengan rekening
+
+halaman request withdraw : status(success, on process)
+admin mengirim uang akan muncul notif ke user, uang sudah di transfer
+
+perhalaman produk yang bidnrun, buyitnow, and success
+
+
+halaman yang pemenang bid nya lewat waktu sniper time
+
+menu list feedback dari user
+
+
+NOMINAL TRANSACTION [NEW] OK
+
+Content
+- Static Page OK
+- News OK
+- Banner OK
+- Category OK
+- Sub Category OK
+- Voucher OK
+- FAQ OK
+- Promo OK
+
+Product
+- All Product OK
+- Product Active OK
+- Product NonActive OK
+- Product Deleted/Invisible OK
+ 
+Member
+- All Member
+  * Member Verified OK
+  * Member Unverified OK
+- Rekening Unverified OK
+- Rekening Verified OK
+- Document Verified OK
+- Document Unverified OK
+- Member Voucher [new: untuk menampilkan pemilik voucher]
+
+- Koin & Point [new; menampilkan total koin & total point member]
+
+Feedback OK
+
+Transaction
+- All Transaction
+  * Bid Success OK
+  * Bid Waiting OK
+  * Bid Expire/BidnRun OK
+  * BuyitNow Success OK
+  * BuyitNOw Waiting OK
+  * BuyitNow Expire OK
+- BidPay Hystory/Mutasi OK
+- Withdraw Request OK
+- Withdraw on Proccess
+- Withdraw Transfered OK
+
+Message
+- Inbox OK
+- Compose OK
+
+Setting System
+- Menu OK
+- User OK
+- User Access OK
+- User Groups OK
+- Appearance OK
+- Backup / Restore Data
+
+
+view_dc_feedback
+view_dc_product
+view_dc_product_active
+view_dc_product_nonactive
+view_dc_product_deleted
+view_dc_member
+view_dc_member_document_verified
+view_dc_member_document_not_verified
+view_dc_log_saldo
+view_dc_log_saldo_transfered
+
+
+di product:
+no ganti jadi id iklan OK
+gambar bisa di klik, ada popup gambar2 produk
+name ganti nama produk OK
+harga awal, kelipatan bid, harga buy it now OK
+description ganti jadi deskripsi produk OK
+tambah field status OK
+
+- ada detail produk
+- current active menu sub menu OK
+
+- verifikasi member OK
+
+- menu feedback nggak ush ada detail OK
+
+- backup restore data
+
+- tambah menu logs di system setting OK
+
+- privilage group crud
+- user active [menu new]
+- member active [menu new]
+
+- feedback bisa dibalas, nanti kirim ke email
+
+- di login tambahkan captcha OK
+- di tambahkan token untuk link di url admin
+
+- sweetalert2 yang dari template OK
+
+logs : ip, browser, activity OK
+- semua activity dikasih log
+
+- bullet list sub kategori dengan sub sub kategori dibedakan OK
